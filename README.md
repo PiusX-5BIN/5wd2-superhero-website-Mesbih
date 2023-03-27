@@ -104,32 +104,32 @@ Voordat je je website voorziet van opmaak, ga je een ontwerp zoeken of maken. Zo
 
 | Term                      | Definitie |
 | ------------------------- | --------- |
-| CSS                       |           |
-| selector                  |           |
-| declaratie                |           |
-| opmaak                    |           |
-| property                  |           |
-| property-value (waarde)   |           |
-| stylesheet                |           |
-| externe stylesheet        |           |
-| *.css                     |           |
-| selector                  |           |
-| conflicterende stijlregel |           |
-| hover                     |           |
-| hexadecimale kleurwaarde  |           |
-| rgb kleurwaarde           |           |
-| font                      |           |
-| generic family            |           |
-| font family               |           |
-| serif                     |           |
-| sans-serif                |           |
-| monospace                 |           |
-| box model                 |           |
-| padding                   |           |
-| border                    |           |
-| margin                    |           |
-| width                     |           |
-| height                    |           |
+| CSS                       |CSS is de taal die een HTML document opmaakt. CSS zegt hoe HTML-elementen moeten worden weergegeven in de browser.|
+| selector                  |De selector duidt aan welke HTML elementen opmaak zullen krijgen.|
+| declaratie                |De declaratie bestaat uit 1 of meerdere opmaakregels die tussen accolades worden geplaatst.|
+| opmaak                    |Hoe je uw website presenteert met het regels te geven.|
+| property                  |De regels van uw website zelf.|
+| property-value (waarde)   |Wat de regels bepalen.|
+| stylesheet                |CSS code in de head van de html, kan nu niet meer.|
+| externe stylesheet        |Een externe stylesheet is een manier om CSS code in een apart bestand te plaatsen, zodat HTML en CSS code grotendeels gescheiden blijft.|
+| *.css                     |De extentie een stylesheet moet opegeslagen mee worden.|
+| selector                  |De Selector selecteert welke HTML elementen worden aangepast door CSS.|
+| conflicterende stijlregel |wanneer meerdere selectoren dezelfde tekt proberen aan te passen.|
+| hover                     |dit geeft aan dat een gebruiker met zijn muis boven op een element hangt.|
+| hexadecimale kleurwaarde  |samengestelde kleuren door nummers en letters|
+| rgb kleurwaarde           |samengestelde kleuren door nummers dat vertelt hoe rood, groen en blauw de kleur is.|
+| font                      |Een ander woord voor lettertype is font. Een lettertype is de manier waarop letters, leestekens en cijfers worden weergegeven.|
+| generic family            |Serif, Sans-serif en Monospace|
+| font family               |Times New Roman, Georgia, Arial, Calibri, Courir New en Roboto Mono|
+| serif                     |een soort lettertype|
+| sans-serif                |een soort lettertype|
+| monospace                 |een soort lettertype|
+| box model                 |Het CSS Box Model is eigenlijk gewoon een rechthoek dat rond elk HTML element wordt geplaatst.|
+| padding                   |de ruimte rondom de inhoud, aan de binnenkant van de rand.|
+| border                    |de lijn die kan getekend worden rondom een HTML element. Dit is de ruimte tussen padding en margin.|
+| margin                    |De ruimte rondom het volledige HTML element. Deze ruimte zorgt ervoor dat er ruimte is tussen dit en andere HTML elementen.|
+| width                     |De breedte van de content van het HTML element. Standaard is de breedte van een element dus width + padding + border (+ margin).|
+| height                    |De hoogte van de content van het HTML element. Standaard is de hoogte van een element dus height + padding + border (+ margin).|
 
 
 ## 📚 Bronnen
