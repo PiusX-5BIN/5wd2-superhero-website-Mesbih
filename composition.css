@@ -1,0 +1,30 @@
+body,h1,h2,h3,h4,h5 {
+    font-family:"Raleway", sans-serif ;
+}
+
+.date {
+    color:gray;
+}
+
+.grid-container {
+    display:grid;
+    row-gap: 50px;
+    grid-template-columns: 80px 200px auto 40px;
+}
+
+.grid-item1 {
+    width: 20%; 
+
+}
+
+.grid-item2 {
+    width: 10%;
+}
+
+.grid-item3 {
+    width:10%;
+}
+
+.grid-item4 {
+    width:20%;
+}
