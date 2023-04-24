@@ -1,30 +1,114 @@
-body,h1,h2,h3,h4,h5 {
-    font-family:"Raleway", sans-serif ;
-}
 
-.date {
+date {
     color:gray;
 }
 
 .grid-container {
     display:grid;
-    row-gap: 50px;
-    grid-template-columns: 80px 200px auto 40px;
+    font-size: medium;
+    grid-template-columns: repeat(8, 1fr);
+     gap: 50px;
+    grid-auto-rows: 50px;
+    grid-template-areas:
+    "j j j j j j j j"
+    "k k k k k k k k"
+    "b i i i a a a a"
+    "b h h h a a a a"
+    "b h h h a a a a"
+    "l l l l a a a a"
+    "c m m m a a a a"
+    "c n n n a a a a"
+    "c n n n a a a a"
+    "o o o o o o o o"
+    "d d d d d d d d"
+    "e e e e e e e e"
+    "f f f f f f f f"
+    "g g g g g g g g"
+    
+    
+    
+    ;
+    align-items: start;
+    text-align: left;
+
 }
 
 .grid-item1 {
-    width: 20%; 
-
+    width:350px;
+    grid-area: a;
+    
+    
 }
 
 .grid-item2 {
-    width: 10%;
+    width: 200px;
+    grid-area: b;
 }
 
 .grid-item3 {
-    width:10%;
+    width: 200px;
+    grid-area: c;
 }
 
 .grid-item4 {
-    width:20%;
+    width: 50px;
+    grid-area: d;
+}
+
+.grid-item5 {
+    width: 50px;
+    grid-area: e;
+}
+
+.grid-item6 {
+    width: 50px;
+    grid-area: f;
+}
+
+.grid-item7 {
+    width: 50px;
+    grid-area: g;
+}
+
+.grid-item8 {
+    grid-area: h;
+    
+}
+
+.grid-item9 {
+    grid-area: i;
+}
+
+.grid-item10 {
+    grid-area: j;
+    text-align: center;
+}
+
+.grid-item11 {
+    grid-area: k;
+    text-align: center;
+}
+
+.grid-item12 {
+    grid-area: l;
+}
+
+.grid-item13 {
+    grid-area: m;
+}
+
+.grid-item14 {
+    grid-area: n;
+}
+
+.grid-item15 {
+    grid-area: o;
+}
+
+.grid-item16 {
+    grid-area: p;
+}
+
+.grid-item17 {
+    grid-area: q;
 }
