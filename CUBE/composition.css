@@ -1,7 +1,5 @@
 
-date {
-    color:gray;
-}
+
 
 .grid-container {
     display:grid;
@@ -15,15 +13,17 @@ date {
     "b i i i a a a a"
     "b h h h a a a a"
     "b h h h a a a a"
-    "l l l l a a a a"
-    "c m m m a a a a"
-    "c n n n a a a a"
-    "c n n n a a a a"
-    "o o o o o o o o"
-    "d d d d d d d d"
-    "e e e e e e e e"
-    "f f f f f f f f"
-    "g g g g g g g g"
+    "1 1 1 1 a a a a"
+    "c l l l a a a a"
+    "c m m m n n n n"
+    "c m m m o o o o"
+    "2 2 2 2 2 2 2 2"
+    "d r q q q q q q"
+    "e p s s s s s s"
+    "f t u u u u u u"
+    "g v w w w w w w"
+    "3 3 3 3 3 3 3 3"
+    "x x x x x x x x"
     
     
     
@@ -34,7 +34,7 @@ date {
 }
 
 .grid-item1 {
-    width:350px;
+    width:325px;
     grid-area: a;
     
     
@@ -51,22 +51,22 @@ date {
 }
 
 .grid-item4 {
-    width: 50px;
+    width: 150px;
     grid-area: d;
 }
 
 .grid-item5 {
-    width: 50px;
+    width: 150px;
     grid-area: e;
 }
 
 .grid-item6 {
-    width: 50px;
+    width: 150px;
     grid-area: f;
 }
 
 .grid-item7 {
-    width: 50px;
+    width: 150px;
     grid-area: g;
 }
 
@@ -81,12 +81,10 @@ date {
 
 .grid-item10 {
     grid-area: j;
-    text-align: center;
 }
 
 .grid-item11 {
     grid-area: k;
-    text-align: center;
 }
 
 .grid-item12 {
@@ -112,3 +110,55 @@ date {
 .grid-item17 {
     grid-area: q;
 }
+
+.grid-item18 {
+    grid-area: r;
+}
+
+.grid-item19 {
+    grid-area: s;
+}
+
+.grid-item20 {
+    grid-area: t;
+}
+
+.grid-item21 {
+    grid-area: u;
+}
+
+.grid-item22 {
+    grid-area: v;
+}
+
+.grid-item23 {
+    grid-area: w;
+}
+
+.grid-item24 {
+    grid-area: x;
+}
+
+.grid-item25 {
+    grid-area: 1;
+}
+
+.grid-item26 {
+    grid-area: 2;
+}
+
+.grid-item27 {
+    grid-area: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
