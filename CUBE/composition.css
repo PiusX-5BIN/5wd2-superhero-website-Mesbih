@@ -51,21 +51,25 @@
 }
 
 .grid-item4 {
+    height: 90px;
     width: 150px;
     grid-area: d;
 }
 
 .grid-item5 {
+    height: 90px;
     width: 150px;
     grid-area: e;
 }
 
 .grid-item6 {
+    height: 90px;
     width: 150px;
     grid-area: f;
 }
 
 .grid-item7 {
+    height: 90px;
     width: 150px;
     grid-area: g;
 }
